@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Selectors</title>
+    <style>
+        .mtol {
+            color:brown
+        }
+        .mtok, .mtoi {
+            color:coral
+        }
+        p.mtop {
+            color:forestgreen
+        }
+    </style>
+</head>
+<body>
+    <h1>Class Selectors</h1>
+    <p>Pakistan Railways offers following routes to passengers</p>
+    <div>
+        <p class="mtol"> 1) Multan to Lahore</p>
+    </div>
+    <div>
+        <p class="mtoi"> 2)Multan to Islamabad</p>
+    </div>
+    <div>
+        <p class="mtok"> 3) Multan to Karachi</p>
+    </div>
+    <div>
+        <p class="mtop"> 4) Multan to Peshawar</p>
+    </div>
+    <p>Below is the list of passengers</p>
+    <table border="2" width="800">
+        <tr>
+            <th>S. No</th>
+            <th>Name</th>
+            <th>Ticket No.</th>
+            <th>Route</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ahmed</td>
+            <td>PR 0346</td>
+            <td>
+                <ol>
+                    <li class="mtol">Multan to Lahore</li>
+                    <li class="mtoi">Multan to Islamabad</li>
+                    <li class="mtok">Multan to Karachi</li>
+                    <li class="mtop">Multan to Peshawar</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Ainee</td>
+            <td>PR 0478</td>
+            <td>
+                <ol>
+                    <li class="mtoi">Multan to Islamabad</li>
+                    <li class="mtok">Multan to Karachi</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Hamza</td>
+            <td>PR 0965</td>
+            <td>
+                <ol>
+                    <li class="mtol">Multan to Lahore</li>
+                    <li class="mtop">Multan to Peshawar</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Farah</td>
+            <td>PR 0267</td>
+            <td>
+                <ol>
+                    <li class="mtop">Multan to Peshawar</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Amir</td>
+            <td>PR 0444</td>
+            <td>
+                <ol>
+                    <li class="mtok">Multan to Karachi</li>
+                    <li class="mtoi">Multan to Islamabad</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
