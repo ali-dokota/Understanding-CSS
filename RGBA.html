@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBA</title>
+    <style>
+        .mainDiv {
+            display:inline-block;
+            height:200px;
+            width:200px;
+            text-align: center;
+            color:red;
+        }
+        .Div1 {
+            background-color: rgb(0,35,102);
+            padding:50px;
+        }
+        .Div2 {
+            background-color: rgb(0,35,102);
+            opacity:0.6;
+            padding:50px;
+        }
+        .Div3 {
+            background-color: rgba(0,35,102,0.3);
+            padding:50px;
+        }
+        .Div4 {
+            background-color:rgba(0,35,102,0.1);
+            padding:50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="Div1">
+            100% Opacity
+        </div>
+    </div>
+    <div class="mainDiv">
+        <div class="Div2">
+            60% Opacity
+        </div>
+    </div>
+    <div class="mainDiv">
+        <div class="Div3">
+            30% Opacity
+        </div>
+    </div>
+    <div class="mainDiv">
+        <div class="Div4">
+            10% Opacity
+        </div>
+    </div>
+</body>
+</html>
