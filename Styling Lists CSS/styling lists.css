@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    padding: 10%;
+    font-size: 2rem;
+}
+
+ol {
+    list-style-type:upper-roman;
+    
+}
+
+ul {
+    list-style-type: square;
+    padding: 0%;
+    text-align:left;
+    list-style-position: inside;
+    color: blue;
+    line-height: 1.6;
+   /*  list-style-image: url("./Images/checkmark-box-orange-icon-50.png"); */
+}
+
+ul li:nth-child(3) {
+    color: blueviolet;
+}
+
+::marker{
+    color:aqua;
+    font-family:fantasy;
+    font-size:1em;
+   /*  content: "hello >>"; */
+}
