@@ -1,0 +1,28 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Playfair+Display&family=Roboto&display=swap');
+
+  body {
+    font-family: 'Kalnia', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+  }
+
+ main {
+    background-color: aqua;
+    width: 50%;
+  }
+
+  p {
+    background-color: darksalmon;
+    margin: 100px;
+  }
+
+  .opposite {
+    display: inline-block;
+    color: black;
+    background-color: whitesmoke;
+    /* margin-top: 100%;
+    height: 200px; (can't be done to Inline-elements) */
+    padding: 4rem;
+    margin-top: 100px;
+    height: 200px;
+  }
