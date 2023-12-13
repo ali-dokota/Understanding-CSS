@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&family=Mali&family=Playfair+Display&family=Roboto&display=swap');
+
+body {
+font-size: 1.5rem;    
+font-family: 'Mali', cursive;
+}
+
+.block{
+    height: 30vw;
+    width: 30vw;
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear {
+    clear:both;
+}
+
+section {
+    background-color: salmon;
+    border: 1px solid black;
+    padding: 2rem;
+    display: flow-root;
+}
+
+/* p {
+    margin-left: 20%;
+} */
