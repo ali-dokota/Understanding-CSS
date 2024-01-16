@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin:"0";
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid blueviolet;
+    display: flex;
+    /* justify-content: center; */ /* we may use the justify content as flex start, flex end and center */
+    gap: 1rem;
+    justify-content: space-evenly; /* space-around and space-between is another property you can use */ 
+    align-items: center;
+    flex-direction: row;  /* you can use other option here as well */
+    flex-wrap: wrap;
+    align-content: space-evenly; /* try other options too */
+}
+
+.box {
+    min-width: 100px;
+    /* min-height: 100px; */
+    height: 100px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*apply following code after commenting out last four div in html file*/
+    /* flex-grow: 1;
+    flex-basis: 100px;
+}
+
+.box:nth-child(2) {
+    flex-grow: 2; */
+}
