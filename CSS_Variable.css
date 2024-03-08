@@ -9,7 +9,7 @@
 
  :root {
     /* FONT */
-    --FF: "Black Ops One";
+    --FF: "Black Ops One";     
     --FS: 1.5rem;
     --FS-XL: 3rem;
     /* COLOR */
@@ -41,7 +41,7 @@
 body {
     font-family: "Black Ops One", system-ui;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal;                   
     min-height: 100vh;
 
     background-color: var(--BGCOLOR);
